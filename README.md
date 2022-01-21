@@ -16,9 +16,11 @@ A webpage for Delani studio which gives a detailed account about what they are, 
 
  To view the application on web. click on the github pages link
 
+ <https://njenganelson.github.io/delani-studio/>
+
  > Or Open the ``index.html`` on your favorite browser.
 
-## strategy
+## Strategy
 
  1. Create and index.html file and test on browser that the text on body section appears
  2. Create a script file and link to html file, test using an alert to verify linking is correct
@@ -36,8 +38,6 @@ A webpage for Delani studio which gives a detailed account about what they are, 
 * jquery
 * html
 * vscode
-
-​
 
 ## License
 
