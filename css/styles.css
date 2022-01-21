@@ -16,3 +16,17 @@ body {
     margin-right: auto;
     display: block;
   }
+  .aboutUs {
+    text-align: center;
+    color: black;
+    font-size: small;
+    font-family: 'Yantramanav', sans-serif;
+  }
+  .services {
+    height: 150px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-family: 'Yantramanav', sans-serif;
+  }
