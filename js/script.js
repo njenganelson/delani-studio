@@ -12,4 +12,8 @@ $(document).ready(function () {
             + contactMethod + '\n County of residence: ' + county + '\n Data Privacy: ' + dataChecked + '\n Contact Date: ' + contactDate + '\n' + message +
             '\n We have received your message. Thank you for reaching out to us.')
     })
+    $("#we_do").click(function () {
+        $("#design").toggle();
+        $(".hide-design-image").toggle();
+    })
 })
