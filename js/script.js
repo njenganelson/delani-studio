@@ -25,4 +25,10 @@ $(document).ready(function () {
         $("#product-management").toggle();
         $(".hide-product-management").toggle();
     })
+    $(".hover").hover(function () {
+        $(this).animate({ opacity: '1' });
+    },
+        function () {
+            $(this).animate({ opacity: '0' });
+        })
 })
