@@ -16,4 +16,13 @@ $(document).ready(function () {
         $("#design").toggle();
         $(".hide-design-image").toggle();
     })
+    $("#develop").click(function () {
+        $("#development").toggle();
+        $(".hide-development-image").toggle();
+    })
+
+    $("#productManagement").click(function () {
+        $("#product-management").toggle();
+        $(".hide-product-management").toggle();
+    })
 })
