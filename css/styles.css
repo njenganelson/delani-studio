@@ -3,7 +3,7 @@ body {
   }
   
   h4{
-    font-family: 'Merriweather', serif;
+    font-family: 'Times New Roman', Times, serif, serif;
   }
   .intro {
     height: 350px;
@@ -12,6 +12,11 @@ body {
     color: white;
   }
   .logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .MouseClick {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -30,3 +35,54 @@ body {
     font-size: small;
     font-family: 'Yantramanav', sans-serif;
   }
+  .hide{
+    display:none;
+  }
+  
+  .hover {
+    opacity:0;
+    background-color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%; 
+  }
+  .custom-info-on-portfolio-images {
+    height: 280px;
+    max-width: 280px;
+    padding:2px;
+  }
+  .row{
+    padding:2%;
+  }
+  .contact-Us {
+    background-size:cover;
+    display: cover;
+    padding: 10%;
+  }
+  form #contact{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  input[type=text] {
+    background:transparent;
+    color: white;
+  }
+  textarea[type=text] {
+    background:transparent;
+    color: white;
+  }
+  .submit{
+    position:absolute;
+    padding-left: 25%;
+  }
+  
+  .footer {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: x-small;
+    font-family: 'Amaranth', sans-serif;
+  }
+  
